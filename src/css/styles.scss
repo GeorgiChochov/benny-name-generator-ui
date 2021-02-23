@@ -21,4 +21,23 @@ body {
   align-items: center;
   justify-content: center;
   display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 8pt;
+  background-color: burlywood;
+  color: black;
+  border: none;
+  font-size: 14pt;
+  padding: 22pt 44pt;
+  margin: 4pt 2pt;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+}
+
+button:hover {
+  background-color: antiquewhite;
 }
