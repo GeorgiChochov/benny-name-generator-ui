@@ -24,3 +24,17 @@ github:
 vscode:
   extensions:
     - wesbos.theme-cobalt2
+    - eamodio.gitlens
+    - esbenp.prettier-vscode
+    - redwan-hossain.auto-rename-tag-clone
+    - aaron-bond.better-comments
+    - dbaeumer.vscode-eslint
+    - github.vscode-pull-request-github
+    - editorconfig.editorconfig
+    - eamodio.gitlens
+    - redhat.vscode-yaml
+    - pflannery.vscode-versionlens
+    - svelte.svelte-vscode
+    - pkief.material-icon-theme
+    - glenn2223.live-sass
+    - genuitecllc.codetogether
