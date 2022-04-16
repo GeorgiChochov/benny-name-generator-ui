@@ -6,15 +6,18 @@
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "up": "yarn yarn-upgrade-all"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4",
-    "parcel-plugin-svelte": "^4.0.6",
-    "sass": "^1.26.11",
-    "svelte": "^3.28.0"
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-svelte": "^4.0.9",
+    "sass": "^1.50.0",
+    "svelte": "^3.47.0",
+    "yarn-upgrade-all": "^0.7.1"
   },
   "dependencies": {
-    "marked": "^1.1.1"
+    "marked": "^4.0.14",
+    "papaparse": "^5.3.2"
   }
 }

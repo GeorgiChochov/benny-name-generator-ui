@@ -1,6 +1,7 @@
 <script>
 	import LastNameForm from "./LastNameForm.svelte"
 	import TitleForm from "./TitleForm.svelte"
+	import StatementReader from "./StatementReader.svelte"
 
 	const getRandomIndex = (maxIndex) => Math.floor(Math.random() * maxIndex)
 
@@ -63,3 +64,4 @@
 <button on:click={getNewBenny}>New Benny</button>
 <LastNameForm/>
 <TitleForm/>
+<StatementReader/>

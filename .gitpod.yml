@@ -1,9 +1,9 @@
 # Learn more about this file at https://www.gitpod.io/docs/references/gitpod-yml
 tasks:
-  - init: yarn
-    command: yarn start
+  - init: yarn dev
+    command: yarn dev
 ports:
-  - port: 3000
+  - port: 1234
     onOpen: open-preview
 github:
   prebuilds:
